@@ -18,11 +18,11 @@ namespace KampIntro
             double dolarDun = 7.55;
             double dolarBugun = 7.55;
 
-            if (dolarDun>dolarBugun)
+            if (dolarDun > dolarBugun)
             {
                 Console.WriteLine("Azalış butonu");
             }
-            else if (dolarDun<dolarBugun)
+            else if (dolarDun < dolarBugun)
             {
                 Console.WriteLine("Artış butonu");
             }
@@ -39,7 +39,7 @@ namespace KampIntro
             {
                 Console.WriteLine("Giriş yap butonu");
             }
-            
+
             Console.WriteLine(kategoriEtiketi);
 
 

@@ -10,7 +10,7 @@ namespace Metotlar
             double fiyati = 15;
             string aciklama = "Amasya elması";
 
-            string[] meyveler = new string[] {"Elma","Karpuz" };
+            string[] meyveler = new string[] { "Elma", "Karpuz" };
 
             Urun urun1 = new Urun();
             urun1.Adi = "Elma";
@@ -22,11 +22,11 @@ namespace Metotlar
             urun2.Fiyati = 80;
             urun2.Aciklama = "Diyarbakır karpuzu";
 
-            Urun[] urunler = new Urun[] {urun1,urun2 };
+            Urun[] urunler = new Urun[] { urun1, urun2 };
 
             //type-safe -- tip güvenli
             foreach (var urun in urunler)
-            {                
+            {
                 Console.WriteLine(urun.Adi);
                 Console.WriteLine(urun.Fiyati);
                 Console.WriteLine(urun.Aciklama);

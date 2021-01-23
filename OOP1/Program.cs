@@ -17,7 +17,7 @@ namespace OOP1
 
             //PascalCase   //camelCase
             //case sensitive
-            ProductManager productManager = new ProductManager(); 
+            ProductManager productManager = new ProductManager();
             productManager.Add(product1);
             Console.WriteLine(product1.ProductName);
 

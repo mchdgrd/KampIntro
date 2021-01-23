@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace GenericsIntro
+﻿namespace GenericsIntro
 {
     class MyList<T>
     {
@@ -15,7 +11,7 @@ namespace GenericsIntro
         public void Add(T item)
         {
             T[] tempArray = items;
-            items = new T[items.Length+1];
+            items = new T[items.Length + 1];
             for (int i = 0; i < tempArray.Length; i++)
             {
                 items[i] = tempArray[i];
